@@ -13,3 +13,6 @@ and performs a parcel–landuse overlay analysis.
 ## Outputs
 - PostGIS table: `parcel_landuse_percentage`
 - Visualization in QGIS
+
+## Reflection: Database Connection Milestone
+The database connection was implemented in a Python script and by utilizing SQL command and python syntax, the spatial data were printed similarly when viewing data thru pgAdmin. This successful connection establishes Python as a computational bridge between PostGIS and analytical workflows. Python can now issue spatial queries to the database, receive geometry-aware results as GeoDataFrames and execute GIS algorithms. The system translates spatial intent into computational execution that enables seamless integration between database-stored geometries and Python-based spatial analysis tools.
